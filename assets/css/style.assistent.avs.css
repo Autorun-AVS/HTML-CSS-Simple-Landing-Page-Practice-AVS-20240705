@@ -1,0 +1,159 @@
+/* Universal Selector/ CSS Reset -avs */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Layout - base on Grid -avs  */
+.grid {
+  display: grid;
+}
+/* -----------------------------------  */
+.all-center-grid-avs {
+  /* place-items: center; ArrAnge the content in the center of the Screen -avs  */
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+/* -----------------------------------  */
+/* for equal size two column base on Grid -avs */
+.parent-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Layout - base on Flex -avs  */
+.flex {
+  display: flex;
+}
+/* -----------------------------------  */
+.vertically-center-flex-avs {
+  /* align-items: center; for vertically center the content -avs */
+  display: flex;
+  align-items: center;
+}
+/* -----------------------------------  */
+/* for equal size two column base on Flex -avs */
+/* parent-container display flex, and other property for childElement-box -avs  */
+.container-avs {
+  display: flex;
+}
+.left-col,
+.right-col {
+  /* flex-basis: 0; size of flex item to 0 and grow to 1 so flex item will take all available space equally -avs  */
+  flex-basis: 0;
+  flex-grow: 1;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Button -avs */
+.button-1-avs {
+  border: none;
+  color: snow;
+  background: darkblue;
+  font-size: 1.2rem;
+  padding: 1em;
+  width: 100%;
+  cursor: pointer;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Input -avs */
+.input-1-avs {
+  width: 100%;
+  border: none;
+  background: #ededed;
+  border: 1px solid #c7c7c7;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  margin-bottom: 2.5em;
+}
+.label-1-avs {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Background image transparent -avs  */
+.bg-img-transparent-avs {
+  text-align: center;
+  background-color: darkblue;
+  color: snow;
+  position: relative;
+}
+.bg-img-transparent-avs:before {
+  content: "";
+  position: absolute;
+
+  /* top 0 left 0 for fit it to left corner, width 100% height 100% for fit it to full screen based on parent -avs  */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* background-size: cover for cover the whole background, background-position: 100% for centering it based on parent -avs */
+  background: url("../images/Available-Today-1.webp") no-repeat center center;
+  background-size: cover;
+  background-position: 100%;
+  opacity: 0.2;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Background color -avs */
+.bg-dark-gray-avs {
+  background: #2d2e36;
+}
+.text-dark-gray-avs {
+  color: #2d2e36;
+}
+/* -----------------------------------  */
+/* - */
+/* - */
+/* - */
+/* -----------------------------------  */
+/* Problem and Solution -avs */
+.scrolling-off-avs {
+  /* overflow: hidden to prevent scrolling -avs  */
+  overflow: hidden;
+}
+/* -----------------------------------  */
