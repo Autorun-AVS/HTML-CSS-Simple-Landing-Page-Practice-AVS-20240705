@@ -15,40 +15,45 @@
   <main class="container-avs">
 
     <!-- Left side content -avs -->
-    <div class="left-col">
+    <x-column class="left-col">
       <x-card class="content-avs">
         <h1 class="title">Got Marketing? Advance your business Insight.</h1>
-        <p class="description">Got Marketing? Advance your business Insight.
-          Fill out the form and receive our award wining newsletter.</p>
-          <span class="developerRight">#developerRight ! Hi there. This project is completely open for you. You can study it or
-            use in your project. But I will appreciate if you at least give me the credit. Thanks, take care and stay safe.
-            https://github.com/Autorun-AVS</span>
+        <p class="description">Got Marketing? Advance your business Insight. Fill out the form and receive our award
+          wining newsletter.</p>
+        <span class="developerRight">#developerRight ! Hi there. This project is completely open for you. You can study
+          it or
+          use in your project. But I will appreciate if you at least give me the credit. Thanks, take care and stay
+          safe.
+          https://github.com/Autorun-AVS</span>
       </x-card>
-    </div>
+    </x-column>
 
 
+    
     <!-- Right side content -avs -->
-    <div class="right-col">
+    <x-column class="right-col">
       <form action="#">
         <x-card class="content-avs form">
 
-          <div class="input-wrapper">
+          <x-wrapper class="input-wrapper">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
-          </div>
+          </x-wrapper>
 
-          <div class="input-wrapper">
+          <x-wrapper class="input-wrapper">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-          </div>
+            <input type="text" id="email" name="email" required>
+          </x-wrapper>
 
-          <div class="input-wrapper">
-            <button type="submit">Subscribe</button>
-          </div>
+          <x-wrapper class="input-wrapper">
+            <button type="submit">Submit</button>
+          </x-wrapper>
 
         </x-card>
       </form>
-    </div>
+    </x-column>
+
+
   </main>
 
 
