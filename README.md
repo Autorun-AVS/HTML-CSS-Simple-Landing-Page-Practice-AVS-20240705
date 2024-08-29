@@ -13,9 +13,9 @@ See the LICENSE file for more details.
 
 Screenshots:
 
-Screenshot 1
+Screenshot 1 - Mobile
 ![Project screenshot 1](screenshots/Simple-Landing-Page-Practice-AVS%20(1).png)
-Screenshot 2
+Screenshot 2 - Tablet
 ![Project screenshots 2](screenshots/Simple-Landing-Page-Practice-AVS%20(2).png)
-Screenshot 3
+Screenshot 3 - Desktop
 ![Project screenshots 3](screenshots/Simple-Landing-Page-Practice-AVS%20(3).png)
